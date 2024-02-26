@@ -1,0 +1,79 @@
+.div1-container,
+.div2-container,
+.div3-container,
+.div4-container,
+.div5-container,
+.div6-container,
+.div7-container,
+.div8-container {
+  width: 250px;
+  height: 11vh;
+  margin-bottom: 10px;
+  position: relative;
+}
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8 {
+  width: 250px;
+  height: 11vh;
+  background-color: #64dfdf;
+  position: absolute;
+  animation-name: flow;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.div2,
+.div4,
+.div6,
+.div8 {
+  left: 1200px;
+  animation-direction: reverse;
+}
+.div2 {
+  animation-delay: 1s;
+}
+.div3 {
+  animation-delay: 2s;
+}
+.div4 {
+  animation-delay: 3s;
+}
+.div5 {
+  animation-delay: 4s;
+}
+.div6 {
+  animation-delay: 5s;
+}
+.div7 {
+  animation-delay: 6s;
+}
+.div8 {
+  animation-delay: 7s;
+}
+.div8 {
+  margin-bottom: 0;
+}
+@keyframes flow {
+  0% {
+    background-color: #56cfe1;
+    left: 0;
+  }
+  25% {
+    background-color: #48bfe3;
+  }
+  50% {
+    background-color: #4ea8de;
+  }
+  75% {
+    background-color: #5390d9;
+  }
+  100% {
+    background-color: #5e60ce;
+    left: 1200px;
+  }
+}

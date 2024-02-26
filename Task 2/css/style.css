@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(240, 220, 200);
+}
+/*Website Title*/
+.title {
+  font-size: 30px;
+  color: #8b3609;
+}
+
+/*Products*/
+.p {
+  height: 350px;
+  width: 250px;
+  background-color: rgb(213, 180, 149);
+  border-radius: 8px;
+}
+.p:hover {
+  background-color: rgb(210, 170, 140);
+}
+.img1 {
+  border-radius: 8px;
+}
+.type {
+  font-size: 20px;
+  color: #8b3609;
+}
+.type:hover {
+  font-size: 21px;
+}
+.price {
+  font-size: 18px;
+  color: #8b3609;
+}
+.discount {
+  color: rgb(188, 29, 2);
+}
+.info {
+  color: #8b3609;
+}
+.type:hover,
+.price:hover,
+.info:hover {
+  color: rgb(245, 245, 220);
+}
+.info:hover {
+  color: rgb(158, 89, 5);
+}
+
+/*Square to Circle*/
+.square-circle {
+  height: 35px;
+  width: 400px;
+  border-radius: 8px;
+  background-color: rgb(213, 180, 149);
+  color: #8b3609;
+  font-size: 25px;
+}
+.square {
+  height: 200px;
+  width: 200px;
+  background-color: #8b3609;
+}
+.square:hover {
+  border-radius: 100px;
+}
+
+/*footer*/
+.footer {
+  background-color: rgb(213, 180, 149);
+  height: 170px;
+}
+.Copyright {
+  color: #8b3609;
+}

@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../Assests/fonts/Montserrat/Montserrat-Regular.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url("../Assests/fonts/Montserrat/Montserrat-Medium.woff2")
+    format("woff2");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clear-fix {
+  clear: both;
+}
+body {
+  background-color: #fff;
+  width: 100% 100%;
+  font-family: "Montserrat";
+  margin: 0;
+}
+.navbar-brand,
+.nav-link {
+  color: rgb(204, 40, 40);
+  font-family: Montserrat-Medium;
+}
+.section1 {
+  margin-bottom: 50px;
+}
+.product {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.product:hover {
+  transform: scale(1.1);
+}
+.title1 {
+  padding-top: 100px;
+  font-family: Montserrat-Medium;
+  margin-bottom: 0;
+  font-size: 35px;
+}
+.line {
+  width: 100px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: rgb(204, 40, 40);
+  margin-bottom: 30px;
+}
+.btn-cart {
+  background-color: rgb(204, 40, 40);
+  border: none;
+  transition: 0.5s;
+  color: #fff;
+  margin-left: auto;
+}
+.btn-cart:hover {
+  border: 1px solid rgb(204, 40, 40);
+  background-color: transparent;
+  color: rgb(204, 40, 40);
+}
+#section2 {
+  margin-bottom: 50px;
+  display: none;
+}
+.title2 {
+  font-family: Montserrat-Medium;
+  margin-bottom: 0;
+  font-size: 35px;
+}
+.line2 {
+  width: 80px;
+}
+#receipt {
+  margin-left: 30px;
+  font-size: 20px;
+}

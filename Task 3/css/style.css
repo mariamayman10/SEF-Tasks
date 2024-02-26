@@ -1,0 +1,101 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../assests/fonts/Montserrat/Montserrat-Regular.woff2")
+    format("woff2");
+}
+body {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  font-family: "Montserrat";
+}
+h1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+.line {
+  height: 5px;
+  width: 100px;
+  background-color: rgb(43, 30, 129);
+  margin: auto;
+  border-radius: 5px;
+}
+h1:hover .line {
+  height: 5px;
+  width: 150px;
+}
+.box1 {
+  width: 350px;
+  height: 450px;
+  border: 1px solid rgb(149, 149, 149);
+  border-radius: 15px;
+  float: left;
+  margin-right: 35px;
+  margin-top: 70px;
+  margin-left: 200px;
+}
+.box2 {
+  width: 350px;
+  height: 450px;
+  border: 1px solid rgb(149, 149, 149);
+  border-radius: 15px;
+  float: left;
+  margin-right: 35px;
+  margin-top: 70px;
+}
+.box3 {
+  width: 350px;
+  height: 450px;
+  border: 1px solid rgb(149, 149, 149);
+  border-radius: 15px;
+  float: left;
+  margin-top: 70px;
+}
+.plan-type {
+  font-weight: 200;
+  text-align: center;
+  font-size: 23px;
+}
+.price {
+  width: 130px;
+  height: 130px;
+  border-radius: 65px;
+  border: 1.5px solid rgb(43, 30, 129);
+  margin: auto;
+}
+.price-content {
+  text-align: center;
+  font-size: 33px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.price-per {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.details {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 300;
+  color: rgb(49, 49, 49);
+}
+.btn {
+  background-color: rgb(43, 30, 129);
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  margin-left: 100px;
+  margin-top: 10px;
+  border: 0;
+  color: rgb(255, 255, 255);
+  font-weight: 200;
+  font-family: Montserrat;
+}
+.btn:hover {
+  font-size: 15px;
+  background-color: transparent;
+  color: rgb(43, 30, 129);
+  font-weight: 600;
+}

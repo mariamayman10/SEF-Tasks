@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(245, 245, 245);
+}
+img {
+  border-radius: 10px;
+  width: 480px;
+}
+h1,
+h2 {
+  color: rgb(40, 45, 51);
+}
+form {
+  background-color: #e8e8e8;
+  border-radius: 6px;
+  width: 480px;
+}
+input {
+  border-radius: 5px;
+  border: 0;
+}
+label {
+  color: #404f5f;
+}
+/* #f8f7f3 */
